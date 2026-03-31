@@ -1,0 +1,32 @@
+[
+  {
+    "model": "e5-large",
+    "max_tokens_per_chunk": 508,
+    "fixed_chunk_count": 460,
+    "sentence_chunk_count": 472,
+    "chunking_fixed_ARI": 0.3131,
+    "chunking_fixed_NMI": 0.6439,
+    "chunking_by_sentences_ARI": 0.3107,
+    "chunking_by_sentences_NMI": 0.6465
+  },
+  {
+    "model": "bge-m3",
+    "max_tokens_per_chunk": 508,
+    "fixed_chunk_count": 460,
+    "sentence_chunk_count": 472,
+    "chunking_fixed_ARI": 0.3396,
+    "chunking_fixed_NMI": 0.681,
+    "chunking_by_sentences_ARI": 0.3689,
+    "chunking_by_sentences_NMI": 0.6849
+  },
+  {
+    "model": "e5-small",
+    "max_tokens_per_chunk": 508,
+    "fixed_chunk_count": 460,
+    "sentence_chunk_count": 472,
+    "chunking_fixed_ARI": 0.2995,
+    "chunking_fixed_NMI": 0.6361,
+    "chunking_by_sentences_ARI": 0.3193,
+    "chunking_by_sentences_NMI": 0.6564
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "model": "e5-large",
+    "max_tokens_per_chunk": 508,
+    "fixed_chunk_count": 460,
+    "sentence_chunk_count": 472,
+    "fixed_accuracy": 0.5435,
+    "sentence_accuracy": 0.5,
+    "fixed_split": {
+      "train": 322,
+      "test": 138,
+      "stratified": true
+    },
+    "sentence_split": {
+      "train": 330,
+      "test": 142,
+      "stratified": true
+    }
+  },
+  {
+    "model": "bge-m3",
+    "max_tokens_per_chunk": 508,
+    "fixed_chunk_count": 460,
+    "sentence_chunk_count": 472,
+    "fixed_accuracy": 0.4928,
+    "sentence_accuracy": 0.5493,
+    "fixed_split": {
+      "train": 322,
+      "test": 138,
+      "stratified": true
+    },
+    "sentence_split": {
+      "train": 330,
+      "test": 142,
+      "stratified": true
+    }
+  },
+  {
+    "model": "e5-small",
+    "max_tokens_per_chunk": 508,
+    "fixed_chunk_count": 460,
+    "sentence_chunk_count": 472,
+    "fixed_accuracy": 0.4638,
+    "sentence_accuracy": 0.5352,
+    "fixed_split": {
+      "train": 322,
+      "test": 138,
+      "stratified": true
+    },
+    "sentence_split": {
+      "train": 330,
+      "test": 142,
+      "stratified": true
+    }
+  }
+]
