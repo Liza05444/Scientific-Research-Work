@@ -8,7 +8,8 @@
     "data:download": "python3 tools/download_data.py",
     "eval": "node scripts/eval_models.js",
     "chunking:clustering": "python3 scripts/chunking_clustering.py",
-    "chunking:classify": "python3 scripts/chunking_classification.py"
+    "chunking:classify": "python3 scripts/chunking_classification.py",
+    "chunking:retrieval": "python3 scripts/chunking_retrieval.py"
   },
   "dependencies": {
     "@xenova/transformers": "^2.17.0"
